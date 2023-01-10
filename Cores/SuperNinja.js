@@ -16,7 +16,6 @@ drinkSake(){
     this.salud+=10;
 }
 }
-
 const ninja1= new Ninja("Hasbulla",10);
 
 class Sensei extends Ninja{
@@ -25,6 +24,7 @@ class Sensei extends Ninja{
         this.sabiduria=10;
         this.salud=200;
         this.velocidad=10;
+        this.fuerza=10;
     }
     speakWisdom(){
         senseiOne.drinkSake();
