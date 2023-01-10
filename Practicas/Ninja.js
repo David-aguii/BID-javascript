@@ -1,10 +1,11 @@
 class Ninja{
-    constructor(nombre,salud){
+     constructor(nombre,salud){
         this.nombre=nombre;
         this.salud=salud;
         this.velocidad=3;
         this.fuerza=3;
     }
+
     sayName(){
         console.log("El nombre del nuevo ninja es "+ this.nombre);
     }
